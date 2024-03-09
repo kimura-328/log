@@ -1,3 +1,7 @@
+cert = "/home/ubuntu/environment/sample_app/example.com.pem"
+key = "/home/ubuntu/environment/sample_app/example.com-key.pem"
+ssl_bind "0.0.0.0", 9292, cert: cert, key: key
+
 # Puma can serve each request in a thread from an internal thread pool.
 # The `threads` method setting takes two numbers: a minimum and maximum.
 # Any libraries that use thread pools should be configured to match

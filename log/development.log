@@ -5929,3 +5929,57 @@ Processing by SessionsController#create as HTML
 Completed 200 OK in 23ms (Views: 19.3ms | ActiveRecord: 0.1ms | Allocations: 9125)
 
 
+Started GET "/" for 118.240.4.250 at 2024-03-09 14:57:41 +0000
+Cannot render console from 118.240.4.250! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 217.5ms | Allocations: 24981)
+  Rendered layouts/_shim.html.erb (Duration: 1.5ms | Allocations: 114)
+  Rendered layouts/_header.html.erb (Duration: 3.2ms | Allocations: 504)
+  Rendered layouts/_footer.html.erb (Duration: 1.3ms | Allocations: 214)
+  Rendered layout layouts/application.html.erb (Duration: 268.8ms | Allocations: 33857)
+Completed 200 OK in 934ms (Views: 277.5ms | ActiveRecord: 0.0ms | Allocations: 312001)
+
+
+Started GET "/" for 118.240.4.250 at 2024-03-09 14:57:44 +0000
+Cannot render console from 118.240.4.250! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1.9ms | Allocations: 624)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 143)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 62)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 7909)
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 8141)
+
+
+Started GET "/login" for 118.240.4.250 at 2024-03-09 14:57:48 +0000
+Cannot render console from 118.240.4.250! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 16.4ms | Allocations: 2359)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 11)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 157)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 9735)
+Completed 200 OK in 36ms (Views: 34.7ms | ActiveRecord: 0.0ms | Allocations: 10355)
+
+
+Started GET "/signup" for 118.240.4.250 at 2024-03-09 14:57:53 +0000
+Cannot render console from 118.240.4.250! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 228)
+  Rendered users/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 2397)
+  Rendered layouts/_shim.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 168)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 39.7ms | Allocations: 9780)
+Completed 200 OK in 69ms (Views: 45.0ms | ActiveRecord: 1.2ms | Allocations: 18912)
+
+
